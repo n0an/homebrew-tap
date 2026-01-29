@@ -1,4 +1,4 @@
-cask "hyperkey" do
+cask "hyperkey-app" do
   version "1.0.0"
   sha256 "21934f5cccb13d8acd569ee0f654ccedf08aaba4165c57415d8c9227bb6e878a"
 
