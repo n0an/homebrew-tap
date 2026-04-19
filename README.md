@@ -19,3 +19,16 @@ brew install --cask hyperkey-app
 ```
 
 [More info](https://github.com/n0an/hyperkey)
+
+## Available Formulae
+
+### vivadicta-mcp
+
+Shim that launches the VivaDicta for Mac MCP server. Install the VivaDicta app first from https://vivadicta.com, then:
+
+```bash
+brew install n0an/tap/vivadicta-mcp
+claude mcp add --scope user vivadicta -- vivadicta-mcp
+```
+
+[More info](https://github.com/n0an/VivaDictaMac/blob/main/docs/mcp-server.md)
