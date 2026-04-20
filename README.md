@@ -32,3 +32,15 @@ claude mcp add --scope user vivadicta -- vivadicta-mcp
 ```
 
 [More info](https://github.com/n0an/VivaDictaMac/blob/main/docs/mcp-server.md)
+
+### vivadicta
+
+Shim that launches the VivaDicta for Mac CLI (read transcriptions, search, export to Obsidian from the terminal). Install the VivaDicta app first from https://vivadicta.com, then:
+
+```bash
+brew install n0an/tap/vivadicta
+vivadicta recent 5
+vivadicta search "sprint planning" --since yesterday
+```
+
+[More info](https://github.com/n0an/VivaDictaMac/blob/main/docs/cli.md)
